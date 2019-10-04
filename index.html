@@ -9,19 +9,30 @@
 
 </head>
 <body>
-	<div class ="wrapper">
-		
-		<div class ="header"><div class="inner-header">Шапка</div></div>
-		<div class="row">
-			<div class="content"><div class="inner-content"><div id="root">Hi, I`m #root</div></div></div>
-			<div class="sidebar"><div class="inner-sidebar">Сайдбар</div></div>
+	<header class="menu-bar">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-2">
+					<img src="img/logo.png" alt="My_Landing" class="logo"><!--Зробити новий логотип 180x70px  https://rentafont.livejournal.com/13536.html-->
+				</div>
+				<div class="col-xl-8 ml-auto align-self-center">
+					<nav>
+						<ul class="menu d-flex justify-content-end">
+							<li class="menu__item"><a href="#">Home</a></li>
+							<li class="menu__item"><a href="#">About</a></li>
+							<li class="menu__item"><a href="#">Servicing</a></li>
+							<li class="menu__item"><a href="#">Portfolio</a></li>
+							<li class="menu__item"><a href="#">Blog</a></li>
+							<li class="menu__item"><a href="#">Contact us</a></li>
+							<li class="menu__item"><a href=""><i class="fas fa-search"></i></a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
 		</div>
-		<div class="footer"><div class="inner-footer">Футер</div>
-	</div></div>
+	</header>
 
 		<script src="js/jquery-3.4.1.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		/*<script src="js/app.js"></script>
-		<script type="text/babel" src="js/app.js"></script>*/
 </body>
 </html>

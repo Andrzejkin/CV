@@ -158,3 +158,26 @@ li {
    font-size: 15px;
    margin-bottom: 40px;
 }
+
+/*Latest Works*/
+
+.portfolio {
+	padding-top: 120px;
+	padding-bottom: 135px;
+	text-align: center;
+	margin-bottom: 120px;
+}
+
+.portfolio button:hover { 
+	color: black;
+	background: transparent;
+	border: 2px solid #00897b;
+}
+
+.portfolio img {
+	margin-bottom: 30px;
+}
+
+.filter {
+	padding: 120px 0;
+}

@@ -6,6 +6,8 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link href="css/style.css" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/e0bf5548ed.js" crossorigin="anonymous"></script>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/main.js">
 
 </head>
 <body>
@@ -37,8 +39,8 @@
 				<div class="col-xl-12">
 					<h1 class="header__title">Web development project</h1>
 					<p class="header__text">Very suitable to support all web development projects</p>
-					<button class="button button_empty">OUR SERVICES</button>
-					<button class="button button_full">HIRE IS NOW</button>
+					<button class="button">OUR SERVICES</button>
+					<button class="button">HIRE IS NOW</button>
 				</div>
 			</div>
 		</div>
@@ -140,8 +142,34 @@
 				</div>
 
 	</section>
-
-		<script src="js/jquery-3.4.1.min.js"></script>
+	<section class="portfolio">
+		<div class="container">
+			<div class="row justify-content-center">
+					<div class="col-xl-12">
+						<h2 class="about__title">Latest Works</h2>
+						<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+						<button val="on" class="button" filter="all">ALL</button>
+						<button val="off" class="button" filter="wd">WEB DESIGN</button>
+						<button val="off" class="button" filter="ud">UI/UX DESIGN</button>
+						<button val="off" class="button" filter="moc">MOCKUPS</button>
+					</div>
+				</div>
+			<div class="row filter">
+				<div filter="wd" class="col-xl-4"><img src="img/item1.png" alt=""></div>
+				<div filter="ud" class="col-xl-4"><img src="img/item2.png" alt=""></div>
+				<div filter="moc" class="col-xl-4"><img src="img/item3.png" alt=""></div>
+				<div filter="wd" class="col-xl-4"><img src="img/item4.png" alt=""></div>
+				<div filter="ud" class="col-xl-4"><img src="img/item5.png" alt=""></div>
+				<div filter="moc" class="col-xl-4"><img src="img/item6.png" alt=""></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xl-12">
+				<button class="button">VIEW ALL</button>
+			</div>
+		</div>
+	</section>
+		
 		<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

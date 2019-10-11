@@ -168,7 +168,8 @@ li {
 	margin-bottom: 120px;
 }
 
-.portfolio button:hover { 
+.portfolio button:hover,
+.focused { 
 	color: black;
 	background: transparent;
 	border: 2px solid #00897b;
@@ -180,4 +181,128 @@ li {
 
 .filter {
 	padding: 120px 0;
+}
+
+div[filter]:hover img {
+	filter: brightness(50%);
+	transition: 0.5s;
+}
+
+.text {
+	display: none;
+}
+
+div[filter]:hover .text {
+	display: block;
+	width: 100%;
+	color: #ffffff;
+	position: absolute;
+	top: 40%;
+	left: 0;
+	z-index: 3;
+	text-align: center;
+}
+
+/*Pricing*/
+
+.pricing {
+	padding-top: 165px;
+	padding-bottom: 125px;
+	color: black;
+	background: #f0f1f1;
+	text-align: center;
+}
+
+.price {
+	background: #ffffff;
+	transition: 0.5s;
+}
+
+.price:hover {
+	box-shadow: 0 0 11px 3px rgba(0, 0, 0, 0.39);
+}
+
+.price__head {
+	color: white;
+	background-image: url(../img/price_header.png);
+	padding-top: 40px;
+	padding-bottom: 65px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-height: 211px;
+	font-size: 50px;
+}
+
+.price__head p {
+	font-size: 25px;
+}
+
+.price__head sup {
+	font-size: 25px;
+	vertical-align: middle;
+}
+
+.price__head sub {
+	font-size: 17px;
+	vertical-align: middle;
+}
+
+.price__body {
+	font-size: 17px;
+	color: #212121;
+}
+
+.price__body li {
+	margin: 0 auto;
+	border-bottom: 1px solid #bfbfbf;
+	padding-bottom: 12px;
+	padding-top: 28px;
+	max-width: 180px;
+}
+
+.price__footer {
+	padding: 60px 0;
+}
+
+.price__footer button {
+	background: transparent;
+	color: #212121;
+	border: 2px solid #212121;
+	width: 180px;
+	height: 60px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.price__footer button:hover {
+	text-transform: uppercase;
+	color: white;
+	background: #00897b;
+	border: none;
+	transition: 1s;
+}
+
+.team {
+	text-align: center;
+	padding-top: 165px;
+	padding-bottom: 125px;
+	color: black;
+	background: white;
+}
+
+.team h4 {
+	margin-top: 30px;
+	font-size: 20px;
+	font-family: 'Open Sans Semibold';
+}
+
+.team p {
+	margin-bottom: 30px;
+	font-size: 15px;
+	font-family: 'Open Sans Semibold';
+}
+
+.icons {
+	display: flex;
+	justify-content: center;
 }

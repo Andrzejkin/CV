@@ -57,7 +57,7 @@ li {
    padding: 10px 25px;
    margin: 0 10px;
    color: white;
-   transition: 0.5s;
+   transition: 1s;
    background: #00897b;
    border: 2px solid #00897b;
 }
@@ -106,7 +106,7 @@ li {
 .our_card {
    background: white;
    padding: 50px 40px 40px;
-   transition: 0.5s;
+   transition: 1s;
    margin-bottom: 30px;
 }
 
@@ -133,14 +133,14 @@ li {
 }
 
 .icon {
-   transition: 0.5s;
+   transition: 1s;
    font-size: 60px;
    color: black;
 }
 
 .button-services {
    margin-top: 20px;
-   transition: 0.5s;
+   transition: 1s;
    color: black;
    text-transform: uppercase;
    border: 2px solid black;
@@ -185,7 +185,7 @@ li {
 
 div[filter]:hover img {
 	filter: brightness(50%);
-	transition: 0.5s;
+	transition: 1s;
 }
 
 .text {
@@ -215,7 +215,7 @@ div[filter]:hover .text {
 
 .price {
 	background: #ffffff;
-	transition: 0.5s;
+	transition: 1s;
 }
 
 .price:hover {
@@ -305,4 +305,189 @@ div[filter]:hover .text {
 .icons {
 	display: flex;
 	justify-content: center;
+}
+
+/*Blog*/
+.left > div:first-child {
+	order: 1;
+}
+
+.left > div:last-child {
+	order: 2;
+}
+
+.right > div:first-child {
+	order: 2;
+}
+
+.right > div:last-child {
+	order: 1;
+}
+
+.blog {
+   padding-top: 165px;
+   padding-bottom: 125px;
+   color: black;
+   background: #e4fdf9;
+   text-align: center;
+}
+
+.blog__text {
+   color: #212121;
+   font-size: 15px;
+   margin-bottom: 40px;
+}
+
+.division {
+	margin-left: 35px;
+	text-align: left;
+}
+
+.division div {
+	padding-top: 15px;
+}
+
+.division a {
+	font-size: 25px;
+	font-family: 'Open Sans Semibold';
+	color: #00897b;
+}
+
+.division span {
+	margin-right: 35px;
+	font-size: 17px;
+	font-family: 'Open Sans Semibold';
+}
+
+.division i {
+	margin-right: 15px;
+}
+
+.division p {
+	margin-top: 20px;
+	font-size: 15px;
+}
+
+.button_blog {
+	margin-top: 125px;
+	width: 220px;
+	height: 70px;
+	text-transform: uppercase;
+	color: white;
+	transition: 1s;
+	font-size: 15px;
+	border: none;
+	background: #00897b;
+}
+
+.button_blog:hover {
+	cursor: pointer;
+	border: 2px solid #00897b;
+	color: #000000;
+	background-color: white;
+}
+
+.left, .right {
+	margin-top: 20px;
+}
+
+/*Footer*/
+.footer {
+	text-align: center;
+	padding-top: 130px;
+	padding-bottom: 120px
+	color: black;
+	background-image: url(../img/footer.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.footer .about__text, .footer .about__title, .footer .about_h3 {
+	color: #fff;
+}
+
+.fa-map-marker-alt, .footer .fa-mobile-alt, .fa-envelope {
+	font-size: 60px;
+	color: #fff;
+}
+
+.circle {
+	background: #3949ab;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto 35px;
+}
+
+.my_info {
+	font-size: 20px;
+	color: #fff;
+	font-family: 'Open Sans Semibold';
+}
+
+.footer input {
+	padding: 30px;
+	width: 100%;
+	border-radius: 10px;
+	border: none;
+	margin-bottom: 35px;
+}
+
+.footer textarea {
+	padding: 30px;
+	width: 100%;
+	border-radius: 10px;
+	border: none;
+	margin-bottom: 40px;
+	resize: none;
+}
+
+.form {
+	margin-top: 70px;
+}
+
+.footer button {
+	margin-bottom: 120px;
+	text-transform: uppercase;
+	color: white;
+	transition: 1s;
+	font-size: 20px;
+	border: none;
+	border-radius: 10px;
+	background: #3949ab;
+	font-family: 'Roboto Bold', sans-serif;
+	padding: 20px 80px;
+}
+
+.footer button:hover {
+	color: #000000;
+	background: #fff;
+	cursor: pointer;
+}
+
+.footer input:focus, .footer textarea:focus {
+	outline: none;
+}
+
+.terms {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: 'Roboto Bold', sans-serif;
+	font-size: 20px;
+	color: #212121;
+}
+
+.hometown {
+	color: #212121;
+	font-family: 'Roboto Bold', sans-serif;
+}
+
+.hometown:hover {
+	color: #FF1600;
+	cursor: pointer;
+	transition: 1s;
+	text-decoration: none;
 }

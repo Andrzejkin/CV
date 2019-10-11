@@ -19,4 +19,5 @@ $(document).ready(function() {
       		$('.filter > div[filter='+filter+']').show(300);
       	}
    })
+
 });

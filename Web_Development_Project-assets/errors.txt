@@ -1,0 +1,4 @@
+[2019-10-11 17:11:16] layer "+8801743331996 +8801928737807": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2019-10-11 17:11:16] layer "quickmasud@gmail.com quickmasud@yahoo.com": Unsupported extension: com
+[2019-10-11 17:11:16] layer "blog2.png копія": Expected end of input but "\u043A" found.
+[2019-10-11 17:11:16] layer "blog2.png копія 2": Expected end of input but "\u043A" found.
